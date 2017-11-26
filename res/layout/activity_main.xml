@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context="com.skywalker.doflamingo.lab2017.MainActivity">
+
+    <Button
+        android:id="@+id/lab1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="gotolab1"
+        android:text="Lab 1" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/lab3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="gotolab3"
+        android:text="Lab 3"
+
+        />
+
+    <Button
+        android:id="@+id/lab4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="gotolab4"
+        android:text="Lab 4" />
+
+    <Button
+        android:id="@+id/lab5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="gotolab5"
+        android:text="Lab 5" />
+
+    <Button
+        android:id="@+id/lab6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lab 6"
+        android:onClick="gotolab6"
+        />
+</LinearLayout>
